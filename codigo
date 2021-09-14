@@ -58,7 +58,19 @@ def move():
     update()
     ontimer(move, 100)
 
-
+color = (radom.randrange(5))
+    if (color==1):
+        color('black')
+    if (color==2):
+        color('white')
+    if (color==3):
+        color('green')
+    if (color==4):
+        color('blue')
+    if (color==5):
+        color('red')
+    
+    
 setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
